@@ -4,4 +4,9 @@ git commit -m "Inicial" - Primer commit
 git tag R1 -m "Primera version" - Crear una tag de nombre R1 y con comentario Primera version
 
 git checkout -b "Mejoras" - Crear una nueva rama y cambiar a ella directamente
+
 Ahora añadimos el pdf de propuestas
+git add .
+git commit -m "Propuestas"
+
+Lo mismo ahora con la versión 2 del pdf
