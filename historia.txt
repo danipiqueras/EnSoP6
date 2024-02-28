@@ -9,4 +9,16 @@ Ahora añadimos el pdf de propuestas
 git add .
 git commit -m "Propuestas"
 
-Lo mismo ahora con la versión 2 del pdf
+Lo mismo ahora con la versión 2 del documento
+git add .
+git commit -m "Propuestas implementadas"
+
+Para hacer merge
+git checkout master - Cambiamos a la rama principal
+git merge Mejoras - Juntamos la rama en la que estamos con la avanzada
+git branch -d Mejoras - Borramos esta última rama
+
+Borramos el pdf con las propuestas y hacemos commit
+git add .
+git commit -m "Version 2"
+git tag R2 -m "Segunda version"
