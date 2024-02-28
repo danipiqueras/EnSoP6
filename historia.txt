@@ -48,3 +48,10 @@ Obviamente está al día
 Hacemos commit de este txt y vemos los cambios con el remoto
 git add .
 git commit -m "Cambios historia.txt"
+
+git diff master origin/master - Las diferencias entre la rama master local y la remota
+
+Finalmente, actualizamos el remoto con todos los cambios
+git add .
+git commit -m "Final"
+git push -u origin master --tags
