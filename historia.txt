@@ -22,3 +22,17 @@ Borramos el pdf con las propuestas y hacemos commit
 git add .
 git commit -m "Version 2"
 git tag R2 -m "Segunda version"
+
+Al hacer los cambios hasta la version 3, hacemos un commit
+git add .
+git commit -m "Version 3"
+
+Pero nos hemos dado cuenta de que no queríamos hacerlo así, por lo que regresamos al anterior commit
+Para eso necesitamos el hash de este (no se puede identificar con el nombre)
+(Las primeras letras del hash bastan para identificarlo)
+git reset 672b1a0b42255a0e4af5548fe5e5f4e1e5692345
+
+Ahora si añadimos las plantillas
+git add .
+git commit -m "Version 3"
+git tag R2 -m "Tercera version"
