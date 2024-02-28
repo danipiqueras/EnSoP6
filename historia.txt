@@ -35,4 +35,16 @@ git reset 672b1a0b42255a0e4af5548fe5e5f4e1e5692345
 Ahora si añadimos las plantillas
 git add .
 git commit -m "Version 3"
-git tag R2 -m "Tercera version"
+git tag R3 -m "Tercera version"
+
+Para subir la rama al remoto usamos los comandos que nos dice el propio github
+git remote add origin https://github.com/danipiqueras/EnSoP6.git
+git push -u origin master --tags
+
+Para ver los cambios en la rama
+git pull origin master --tags
+Obviamente está al día
+
+Hacemos commit de este txt y vemos los cambios con el remoto
+git add .
+git commit -m "Cambios historia.txt"
